@@ -18,5 +18,11 @@ Kumpulan Dockerfile dari Ryan. Merupakan simple/basic package yang terdapat dala
  - `<tagname>` = harus menyesuaikan dengan docker hub yang telah diterbitkan oleh author
   
  Cek /  search di repo dockerhub: ryanrek007
-  
- ## TERIMA KASIH !!!
+
+----
+## UPDATE
+Mulai nginx-debian-webserver:1.3 telah terinstall php7.4-fpm
+
+----
+
+## TERIMA KASIH !!!
