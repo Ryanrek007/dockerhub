@@ -21,7 +21,7 @@ Kumpulan Dockerfile dari Ryan. Merupakan simple/basic package yang terdapat dala
 
 ----
 ## UPDATE
-Mulai nginx-debian-webserver:1.3 telah terinstall php7.4-fpm
+untuk `nginx-debian-webserver:1.3` telah terinstall php7.4-fpm
 
 ----
 
