@@ -1,6 +1,6 @@
 # Dockerhub
 ----
-Kumpulan Dockerfile dari Ryan. Merupakan simple/basic package yang terdapat dalam repository / image dockerfile yang ada.
+Kumpulan Dockerfile. Yang berisi simple/basic package yang terinstall di dalam repository / image dockerfile yang ada.
 
 
 ## Cara Pakai
