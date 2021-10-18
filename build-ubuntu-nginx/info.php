@@ -24,7 +24,3 @@ Commercial support is available at
 <p><em>Thank you for using nginx.</em></p>
 </body>
 </html>
-
-<?
-phpinfo();
-?>
