@@ -1,7 +1,7 @@
 FROM nginx:latest
 LABEL "Install nginx server and php7.4-fpm"="customize version by Ryan"
 
-COPY ./info.php /usr/share/nginx/html/index.html
+COPY ./info.html /usr/share/nginx/html/index.html
 
 RUN mkdir /var/www
 
