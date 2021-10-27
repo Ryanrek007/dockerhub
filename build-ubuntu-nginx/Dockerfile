@@ -24,3 +24,7 @@ RUN echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc
 RUN apt-get update
 
 RUN apt -y install php7.4-fpm
+
+ENV TZ=Asia/Jakarta
+
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone

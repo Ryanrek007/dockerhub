@@ -12,6 +12,8 @@ services:
     working_dir: /etc/nginx
     volumes: 
       - ./nginx:/etc/nginx/conf.d/
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
     ports: 
       - 3005:80
     stdin_open: true # docker run -i
