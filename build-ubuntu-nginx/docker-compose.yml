@@ -12,6 +12,7 @@ services:
     working_dir: /etc/nginx
     volumes: 
       - ./nginx:/etc/nginx/conf.d/
+      - ./log-nginx:/var/log/nginx
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports: 
