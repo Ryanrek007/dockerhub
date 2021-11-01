@@ -23,7 +23,7 @@ RUN echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc
 
 RUN apt-get update
 
-RUN apt -y install php7.4-fpm
+RUN apt -y install php7.4-fpm php7.4-mysql
 
 ENV TZ=Asia/Jakarta
 
