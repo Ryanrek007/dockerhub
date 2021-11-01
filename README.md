@@ -25,6 +25,8 @@ Kumpulan Dockerfile. Yang berisi simple/basic package yang terinstall di dalam r
  - untuk `nginx-debian-webserver:1.4` ubah root directory nginx ke /var/www/html
  - jangan lupa untuk hapus `nginx.conf ` _< default > dari nginx_ pada path `/etc/nginx`, dan rename `nginx1-bak.conf` jadi `nginx.conf` pada path `/etc/nginx` agar menjadi default config untuk nginx yang terbaru pada container yang aktif
  - setelah itu jalankan syntax `service php7.4-fpm start` pada container yang aktif guna untuk menjalankan service php
+ - untuk `nginx-debian-webserver:1.5` tambah mounting volume log-nginx untuk dapat di monitor
+
 ----
 
 ## TERIMA KASIH !!!
