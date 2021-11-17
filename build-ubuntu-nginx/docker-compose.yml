@@ -6,7 +6,7 @@ services:
     #   context: ./
     #   dockerfile: Dockerfile
     #
-    image: ryanrek007/nginx-debian-webserver:1.5
+    image: ryanrek007/nginx-debian-webserver:1.6
     container_name: nginx-service-test
     restart: always
     working_dir: /etc/nginx

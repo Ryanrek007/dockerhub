@@ -13,7 +13,7 @@ COPY ./nginx/default.conf /etc/nginx/conf.d/
 
 COPY ./nginx1-bak.conf /etc/nginx/
 
-RUN apt-get update && apt-get install -y iputils-ping net-tools nano wget
+RUN apt-get update && apt-get install -y iputils-ping net-tools nano wget curl
 
 RUN apt -y install lsb-release apt-transport-https ca-certificates
 
@@ -28,3 +28,5 @@ RUN apt -y install php7.4-fpm php7.4-mysql
 ENV TZ=Asia/Jakarta
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
