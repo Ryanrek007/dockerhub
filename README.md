@@ -1,7 +1,7 @@
 # Dockerhub
 ----
 Kumpulan Dockerfile. Yang berisi simple/basic package yang terinstall di dalam repository / image dockerfile yang ada. <br />
-visit or pull my docker image in "**ryanrek007**"
+visit or pull my docker repository images "**ryanrek007**" in dockerhub.
 
 
 ## Cara Pakai
