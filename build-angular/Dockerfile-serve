@@ -1,0 +1,17 @@
+FROM ryanrek007/angular:latest
+LABEL "Install node.js and angular for server"="customize version by Ryan"
+
+##installing node and dependency
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+#RUN npm ci
+
+##expose port for ng serve
+EXPOSE 4200
+
+##aftering installing dependency, copy application/your code
+COPY . .
+
+## start the app [ng serve] for capturing now
+CMD [ "ng","serve","--host", "0.0.0.0"]
