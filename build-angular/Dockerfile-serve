@@ -1,3 +1,4 @@
+##for ng serve only
 FROM ryanrek007/angular:latest
 LABEL "Install node.js and angular for server"="customize version by Ryan"
 
