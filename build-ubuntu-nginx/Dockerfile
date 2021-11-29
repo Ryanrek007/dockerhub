@@ -3,9 +3,7 @@ LABEL "Install nginx server and php7.4-fpm"="customize version by Ryan"
 
 COPY ./info.html /usr/share/nginx/html/index.html
 
-RUN mkdir /var/www
-
-RUN mkdir /var/www/html
+RUN mkdir -p /var/www/html
 
 RUN cp /usr/share/nginx/html/index.html /var/www/html/
 
